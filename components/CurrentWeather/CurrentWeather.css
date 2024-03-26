@@ -1,0 +1,99 @@
+.currentDataWrapper
+{
+    width: 950px;
+    padding: 10px 50px;
+    margin-top: 10px;
+}
+.currentHeader
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currentHeader h4
+{
+    font-size: 2em;
+    color: #ddd;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.currentHeader p
+{
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    background-color: #ADCADF;
+    border-radius: 30px;
+    padding: 3px 10px;
+}
+.contentSection
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.contentSection h1
+{
+    font-size: 4em;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    color: #ddd;
+}
+.contentSection .conditon h4
+{
+    color: #ddd;
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+}
+.contentSection .conditon p
+{
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 300;
+    color: #ddd;
+}
+.contentSection .img
+{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+}
+.over_View
+{
+    text-align: center;
+    margin: 20px 0;
+    color: #ddd;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+}
+.weatherCondtionSection
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    gap: 30px;
+    margin: 10px 0;
+}
+.weatherCondtionSection .box
+{
+    width: 100px;
+    padding: 5px ;
+    background-color: #1B1B1D;
+    border-radius: 10px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.weatherCondtionSection .box p
+{
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 300;
+}
+.weatherCondtionSection .box strong
+{
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
